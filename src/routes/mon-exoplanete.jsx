@@ -27,7 +27,7 @@ export default function PlanetPage() {
           <div className="min-w-[285px] flex flex-col h-full w-full lg:w-[30em] rounded-lg overflow-hidden bg-gradient-to-b p-0.5 from-cyan-500 to-green-500">
       <img
         className="lg:h-80 md:h-60 w-full object-cover object-center rounded-tl-lg rounded-tr-lg "
-        src="../../data/img/ospel.jpeg"
+        src="../../static/ospel.jpeg"
         alt="blog"
       />
       <div className="p-6  bg-black rounded-bl-lg rounded-br-lg flex-auto justify-items-stretch">

@@ -46,7 +46,7 @@ const PlanetCard = (props) => {
     <div className="min-w-[285px] flex flex-col h-full w-full rounded-lg overflow-hidden bg-gradient-to-b p-0.5 from-cyan-500 to-green-500">
       <img
         className="lg:h-80 md:h-60 w-full object-cover object-center rounded-tl-lg rounded-tr-lg"
-        src={props.planet.display_name === "LysGan" ? "../../data/img/LysGan.png" : "https://exoplanets.nasa.gov" + props.planet.list_image}
+        src={props.planet.display_name === "LysGan" ? "../../static/LysGan.png" : "https://exoplanets.nasa.gov" + props.planet.list_image}
         alt="blog"
       />
       <div className="p-6 bg-black rounded-bl-lg rounded-br-lg flex-auto justify-items-stretch">

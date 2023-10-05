@@ -18,7 +18,7 @@ export default function About() {
                 <figure className="bg-slate-600 w-full relative overflow-hidden rounded-tl-xl lg:rounded-bl-none rounded-tr-lg xl:rounded-tr-none xl:rounded-bl-lg">
                   <img
                     className="w-full h-full object-bottom"
-                    src="../../data/img/Night.png"
+                    src="../../static/Night.png"
                   />
                   <footer className="py-3 px-3 bg-slate-800 text-xs text-white font-mono absolute bottom-0 right-0 left-0 rounded-bl-lg bg-opacity-80 border-t-[1px] border-slate-900">
                     <aside>Illustration</aside>

@@ -18,7 +18,7 @@ export default function About() {
                 <figure className="bg-slate-600 w-full relative overflow-hidden rounded-tl-xl lg:rounded-bl-none rounded-tr-lg xl:rounded-tr-none xl:rounded-bl-lg">
                   <img
                     className="w-full h-full object-bottom"
-                    src="../../data/img/Mokambo.jpg"
+                    src="../../static/Mokambo.jpg"
 
                     // https://exoplanets.nasa.gov/system/feature_items/images/465_HD260655b_1600x900.jpg
                   />

@@ -84,7 +84,7 @@ export default function PlanetPage() {
               <div className="relative">
                 <img
                   className="w-full object-cover object-center h-[calc(95vh)]"
-                  src={planet.display_name === "LysGan" ? "../../data/img/MonLysGan.png" : "https://exoplanets.nasa.gov" + planet.image}
+                  src={planet.display_name === "LysGan" ? "../../static/MonLysGan.png" : "https://exoplanets.nasa.gov" + planet.image}
                   alt="blog"
                 />
                 <div className="z-10 w-full flex items-center justify-center absolute -bottom-40">
