@@ -29,9 +29,9 @@ export default function StarsPage() {
       <section className="m-auto mt-14">
         <h1
           className="text-white glow lettering uppercase font-light px-2 mb-8 mt-8 text-center w-full 
-        text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl"
+        text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl"
         >
-         Découvrir les Étoiles"
+         Découvrir les Étoiles
         </h1>
         <div className="w-full flex items-center justify-center">
           <div className="flex flex-wrap">

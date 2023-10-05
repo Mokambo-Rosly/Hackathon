@@ -265,7 +265,7 @@ export default function SolarSystem(props) {
     <div className="bg-black rounded-lg w-full h-full relative overflow-hidden">
       <div className="absolute bottom-4 left-4 right-4 z-50">
         <Tooltip
-          content="Ceci est une image imaginaire d'un système planétaire. Les cercles représentant les orbites mais ne sont pas à la bonne taille. La couleur de l'étoile est basée sur le type d'étoile qu'elle est. Les tailles des planètes sont dessinées pour montrer comment elles se comparent en taille, comme si elles étaient de grosses ou petites planètes par rapport à Jupiter. La durée que mettent les planètes à faire le tour de l'étoile est montrée en fonction du nombre de jours qu'il leur faut, et l'inclinaison de leurs orbites est dessinée pour montrer comment elles sont inclinées par rapport à leur orbite réelle. Les couleurs des planètes sont basées sur le type de planète et sur les images fournies par la NASA pour la visualisation."
+          content="Ceci est une image imaginaire d'un système planétaire. Les cercles représentant les orbites. La couleur de l'étoile est basée sur le type d'étoile qu'elle est. Les tailles des planètes sont dessinées pour montrer comment elles se comparent en taille, comme si elles étaient de grosses ou petites planètes par rapport à Jupiter. La durée que mettent les planètes à faire le tour de l'étoile est montrée en fonction du nombre de jours qu'il leur faut, et l'inclinaison de leurs orbites est dessinée pour montrer comment elles sont inclinées par rapport à leur orbite réelle. Les couleurs des planètes sont basées sur le type de planète et sur les images fournies par la NASA pour la visualisation."
           trigger="click"
         >
           <Button size="xs" pill={true} color="dark">

@@ -21,7 +21,7 @@ export default function About() {
                     src="../../data/img/Day.png"
                   />
                   <footer className="py-3 px-3 bg-slate-800 text-xs text-white font-mono absolute bottom-0 right-0 left-0 rounded-bl-lg bg-opacity-80 border-t-[1px] border-slate-900">
-                    <aside>Exoplanètes rocheuses</aside>
+                    <aside>Illustration</aside>
                   </footer>
                 </figure>
                 <section

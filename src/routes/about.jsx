@@ -23,7 +23,7 @@ export default function About() {
                     // https://exoplanets.nasa.gov/system/feature_items/images/465_HD260655b_1600x900.jpg
                   />
                   <footer className="py-3 px-3 bg-slate-800 text-xs text-white font-mono absolute bottom-0 right-0 left-0 rounded-bl-lg bg-opacity-80 border-t-[1px] border-slate-900">
-                    <aside>Exoplanètes rocheuses</aside>
+                    <aside>Rosly MOKAMBO</aside>
                   </footer>
                 </figure>
                 <section

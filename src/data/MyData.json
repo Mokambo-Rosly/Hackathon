@@ -33,14 +33,14 @@
       "pl_letter": "b",
       "display_name": "LysGan",
       "description": "LysGan est une exoplanète habitable qui orbite autour de son étoile hôte, Yap's, une étoile de type solaire. Avec une masse équivalente à 1,2 fois celle de la Terre, LysGan accomplit une orbite complète autour de Yap's en 365 jours et se trouve à une distance de 0,95 unité astronomique (UA) de son étoile. Sa découverte a été annoncée en 2023",
-      "url": "/exoplanet-catalog/7997/toi-1201-b/",
-      "mass_display": "Proche de la masse terrestre, environ 1,0 masse terrestre",
+      "url": "/exoplanet-catalog/8492/toi-1246-b/",
+      "mass_display": "environ 1,0 masse terrestre",
       "planet_type": "terrestrial",
-      "pl_radj": 1.0,
-      "pl_rade": 1.0,
+      "pl_radj": 0.1,
+      "pl_rade": 0.1,
       "pl_discmethod": "Transit",
-      "image": "/assets/content/planets/neptunelike.jpg",
-      "list_image": "/assets/content/planets/neptunelike_sq.jpg",
+      "image": "/assets/content/planets/terrestrial.jpg",
+      "list_image": "/assets/content/planets/terrestrial_sq.jpg",
       "short_description": "LysGan est une exoplanète habitable qui orbite autour de son étoile hôte, Yap's, une étoile de type solaire. Sa découverte a été annoncée en 2023.",
       "subtitle": "Une exoplanète habitable semblable à la Terre",
       "pl_facility": "Satellite d'étude des exoplanètes en transit (TESS)",
@@ -52,7 +52,7 @@
       "disc_facility": "Satellite d'étude des exoplanètes en transit (TESS)",
       "plType": "N/A (Non nécessaire pour une planète habitable)",
       "visType": "terrestrial",
-      "period_display": "Une période orbitale d'environ 365 jours, similaire à celle de la Terre"
+      "period_display": "Une période orbitale d'environ 360 jours"
     },
 
     {
