@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dist dist --branch 'gh-pages'"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "firebase": "^9.9.0",
