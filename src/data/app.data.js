@@ -341,190 +341,173 @@ class AppDataImpl {
       {
         id: "distanceFromEarth",
         label: "Distance de la Terre",
-        description: "Distance of the star from Earth",
+        description: "Distance de l'étoile par rapport à la Terre",
         link: "https://en.wikipedia.org/wiki/Stellar_parallax#:~:text=The%20approximate%20distance%20is%20simply,parsecs%20(4.24%20ly)%20distant.",
       },
       {
         id: "starType",
         label: "Type d'étoile",
-        description: "Star Type according to the XXX scale",
+        description: "Type d'étoile selon l'échelle XXX",
         link: "https://en.wikipedia.org/wiki/Stellar_classification",
       },
       {
         id: "constellation",
         label: "Constellation",
-        description: "Constellation this star is part of",
+        description: "Constellation à laquelle cette étoile appartient",
         link: "https://en.wikipedia.org/wiki/Constellation",
       },
       {
         id: "disc_year",
         label: "Année de découverte",
-        description: "The year the star was discovered",
+        description: "L'année où l'étoile a été découverte",
         link: "https://en.wikipedia.org/wiki/History_of_astronomy",
       },
       {
         id: "sy_snum",
         label: "Nombre d'étoiles",
-        description: "Number of stars in the planetary system",
+        description: "Nombre d'étoiles dans le système planétaire",
         link: "https://en.wikipedia.org/wiki/Star",
       },
       {
         id: "sy_pnum",
         label: "Nombre de planètes",
-        description: "Number of planets in the planetary system",
+        description: "Nombre de planètes dans le système planétaire",
         link: "https://en.wikipedia.org/wiki/Planet",
       },
       {
         id: "sy_mnum",
         label: "Nombre de lunes",
-        description: "Number of moons in the planetary system",
+        description: "Nombre de lunes dans le système planétaire",
         link: "https://en.wikipedia.org/wiki/Moon",
       },
       {
         id: "st_teff",
         label: "Température effective stellaire [K]",
-        description:
-          "Temperature of the star as modeled by a black body emitting the same total amount of electromagnetic radiation",
+        description: "Température de l'étoile telle que modélisée par un corps noir émettant la même quantité totale de rayonnement électromagnétique",
         link: "https://en.wikipedia.org/wiki/Stellar_classification",
       },
       {
         id: "st_rad",
         label: "Rayon stellaire [Rayon solaire]",
-        description:
-          "Length of a line segment from the center of the star to its surface, measured in units of radius of the Sun",
+        description: "Longueur d'un segment de ligne du centre de l'étoile à sa surface, mesurée en unités de rayon du Soleil",
         link: "https://en.wikipedia.org/wiki/Solar_radius",
       },
       {
         id: "st_mass",
         label: "Masse stellaire [Masse solaire]",
-        description:
-          "Amount of matter contained in the star, measured in units of masses of the Sun",
+        description: "Quantité de matière contenue dans l'étoile, mesurée en unités de masses du Soleil",
         link: "https://en.wikipedia.org/wiki/Stellar_mass",
       },
       {
         id: "rastr",
         label: "RA [sexagesimal]",
-        description:
-          "Right Ascension of the planetary system in sexagesimal format",
+        description: "Ascension droite du système planétaire au format sexagésimal",
         link: "https://en.wikipedia.org/wiki/Right_ascension",
       },
       {
         id: "decstr",
         label: "Dec [sexagesimal]",
-        description:
-          "Declination of the planetary system in sexagesimal notation",
+        description: "Déclinaison du système planétaire en notation sexagésimale",
         link: "https://en.wikipedia.org/wiki/Declination",
       },
       {
         id: "sy_dist",
         label: "Distance [pc]",
-        description: "Distance to the planetary system in units of parsecs",
+        description: "Distance du système planétaire en unités de parsecs",
         link: "https://pt.wikipedia.org/wiki/Parsec",
       },
       {
         id: "sy_plx",
         label: "Parallaxe [mas]",
-        description:
-          "Difference in the angular position of a star as measured at two opposite positions within the Earth's orbit",
+        description: "Différence de la position angulaire d'une étoile telle que mesurée à deux positions opposées dans l'orbite de la Terre",
         link: "https://en.wikipedia.org/wiki/Stellar_parallax",
       },
       {
         id: "elat",
         label: "Latitude écliptique [deg]",
-        description:
-          "Ecliptic latitude of the planetary system in units of decimal degrees",
+        description: "Latitude écliptique du système planétaire en unités de degrés décimaux",
         link: "https://en.wikipedia.org/wiki/Ecliptic_coordinate_system#:~:text=Ecliptic%20latitude%20or%20celestial%20latitude,celestial%20latitude%20of%20%2B90%C2%B0.",
       },
       {
         id: "elon",
         label: "Longitude écliptique [deg]",
-        description:
-          "Ecliptic longitude of the planetary system in units of decimal degrees",
+        description: "Longitude écliptique du système planétaire en unités de degrés décimaux",
         link: "https://en.wikipedia.org/wiki/Ecliptic_coordinate_system#:~:text=Ecliptic%20latitude%20or%20celestial%20latitude,celestial%20latitude%20of%20%2B90%C2%B0.",
       },
       {
         id: "glat",
         label: "Latitude galactique [deg]",
-        description:
-          "Galactic latitude of the planetary system in units of decimal degrees",
+        description: "Latitude galactique du système planétaire en unités de degrés décimaux",
         link: "https://en.wikipedia.org/wiki/Galactic_coordinate_system",
       },
       {
         id: "glon",
         label: "Longitude galactique [deg]",
-        description:
-          "Galactic longitude of the planetary system in units of decimal degrees",
+        description: "Longitude galactique du système planétaire en unités de degrés décimaux",
         link: "https://en.wikipedia.org/wiki/Galactic_coordinate_system",
       },
       {
         id: "sy_pmra",
         label: "Mouvement propre (RA) [mas/an]",
-        description:
-          "Angular change in right ascension over time as seen from the center of mass of the Solar System",
+        description: "Changement angulaire en ascension droite au fil du temps tel qu'observé depuis le centre de masse du Système solaire",
         link: "https://en.wikipedia.org/wiki/Proper_motion",
       },
       {
         id: "sy_pmdec",
         label: "Mouvement propre (Dec) [mas/an]",
-        description:
-          "Angular change in declination over time as seen from the center of mass of the Solar System",
+        description: "Changement angulaire en déclinaison au fil du temps tel qu'observé depuis le centre de masse du Système solaire",
         link: "https://en.wikipedia.org/wiki/Proper_motion",
       },
       {
         id: "sy_tmag",
         label: "Magnitude TESS",
-        description:
-          "Brightness of the host star as measured using the TESS bandpass, in units of magnitudes",
+        description: "Luminosité de l'étoile hôte telle que mesurée en utilisant la bande passante TESS, en unités de magnitudes",
         link: "https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite",
       },
       {
         id: "sy_pm",
         label: "Mouvement propre total [mas/an]",
-        description:
-          "Angular change in position over time as seen from the center of mass of the Solar System",
+        description: "Changement angulaire total de position au fil du temps tel qu'observé depuis le centre de masse du Système solaire",
         link: "https://en.wikipedia.org/wiki/Proper_motion",
       },
       {
         id: "st_met",
         label: "Métallicité stellaire [dex]",
-        description:
-          "Measurement of the metal content of the photosphere of the star as compared to the hydrogen content",
+        description: "Mesure de la teneur en métaux de la photosphère de l'étoile par rapport à la teneur en hydrogène",
         link: "https://en.wikipedia.org/wiki/Stellar_metallicity",
       },
       {
         id: "st_metratio",
         label: "Rapport de métallicité stellaire",
-        description:
-          "Ratio for the Metallicity Value ([Fe/H] denotes iron abundance, [M/H] refers to a general metal content)",
+        description: "Rapport pour la valeur de métallicité ([Fe/H] désigne l'abondance en fer, [M/H] fait référence à une teneur générale en métaux)",
         link: "https://en.wikipedia.org/wiki/Stellar_metallicity",
       },
       {
         id: "st_lum",
         label: "Luminosité stellaire [log10(Solaire)]",
-        description:
-          "Amount of energy emitted by a star per unit time, measured in units of solar luminosities",
+        description: "Quantité d'énergie émise par une étoile par unité de temps, mesurée en unités de luminosités solaires",
         link: "https://en.wikipedia.org/wiki/Stellar_luminosity",
       },
       {
         id: "st_age",
         label: "Âge stellaire [Gyr]",
-        description: "The age of the host star",
+        description: "L'âge de l'étoile hôte",
         link: "https://en.wikipedia.org/wiki/Stellar_age_estimation",
       },
       {
         id: "st_dens",
         label: "Densité stellaire [g/cm3]",
-        description: "Amount of mass per unit of volume of the star",
+        description: "Quantité de masse par unité de volume de l'étoile",
         link: "https://en.wikipedia.org/wiki/Stellar_density",
       },
       {
         id: "st_rotp",
         label: "Période de rotation stellaire [jours]",
-        description:
-          "The time required for the planet host star to complete one rotation, assuming it is a solid body",
+        description: "Le temps nécessaire à l'étoile hôte de la planète pour effectuer une rotation complète, en supposant qu'elle est un corps solide",
         link: "https://en.wikipedia.org/wiki/Rotation_period",
       },
     ];
+    ;
     /**
      * A list of fields with the planetary properties.
      * These will be displayed in the table next to the planet description.
@@ -534,69 +517,69 @@ class AppDataImpl {
       {
         id: "pl_hostname",
         label: "Étoile hôte",
-        description: "The Star hosting this planet",
+        description: "L'étoile qui héberge cette planète",
         link: "https://en.wikipedia.org/wiki/Planet-hosting_star",
       },
       {
         id: "planet_type",
         label: "Type de planète",
-        description: "A description of the type of the planet",
+        description: "Une description du type de la planète",
         link: "https://en.wikipedia.org/wiki/List_of_planet_types",
       },
       {
         id: "plType",
         label: "Sous-type",
         description:
-          "A description of the planet's visuals, according to NASA.",
+          "Une description des caractéristiques visuelles de la planète, selon la NASA.",
         link: "https://en.wikipedia.org/wiki/List_of_planet_types",
       },
       {
         id: "mass_display",
         label: "Masse",
-        description: "A human readable display of the planet's mass",
+        description: "Une représentation lisible par les humains de la masse de la planète",
         link: "https://en.wikipedia.org/wiki/Planetary_mass",
       },
       {
         id: "period_display",
         label: "Période",
-        description: "A human readable display of the planet's orbital period",
+        description: "Une représentation lisible par les humains de la période orbitale de la planète",
         link: "https://en.wikipedia.org/wiki/Orbital_period#:~:text=The%20orbital%20period%20(also%20revolution,other%20stars%2C%20or%20binary%20stars.",
       },
       {
         id: "disc_year",
         label: "Année de découverte",
-        description: "The year the planet was discovered",
+        description: "L'année de la découverte de la planète",
         link: "https://en.wikipedia.org/wiki/Discoveries_of_exoplanets",
       },
       {
         id: "pl_discmethod",
         label: "Méthode de découverte",
-        description: "Planet's discovery method",
+        description: "Méthode de découverte de la planète",
         link: "https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets",
       },
       {
         id: "pl_facility",
-        label: "Facilité",
-        description: "The facility that discovered the planet",
+        label: "Organisation",
+        description: "L'organisation qui a découvert la planète",
         link: "https://exoplanets.psu.edu/category/facilities/",
       },
       {
         id: "pl_radj",
         label: "Rayon J",
-        description: "Planet's radius in Jupiter radii",
+        description: "Le rayon de la planète en unités de rayons de Jupiter",
         link: "https://en.wikipedia.org/wiki/Jupiter_radius",
       },
       {
         id: "pl_rade",
         label: "Rayon E",
-        description: "Planet's radius in Earth radii",
+        description: "Le rayon de la planète en unités de rayons terrestres",
         link: "https://en.wikipedia.org/wiki/Earth_radius",
       },
       {
         id: "pl_orbeccen",
         label: "Excentricité orbitale",
         description:
-          "In astrodynamics, the orbital eccentricity of an astronomical object is a dimensionless parameter that determines the amount by which its orbit around another body deviates from a perfect circle.",
+          "En astrodynamique, l'excentricité orbitale d'un objet astronomique est un paramètre sans dimension qui détermine dans quelle mesure son orbite autour d'un autre corps s'écarte d'un cercle parfait.",
         link: "https://en.wikipedia.org/wiki/Orbital_eccentricity#:~:text=The%20eccentricity%20of%20Earth's%20orbit,gravitational%20attractions%20among%20the%20planets.",
       },
     ];

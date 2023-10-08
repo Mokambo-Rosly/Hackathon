@@ -56,7 +56,7 @@
       "ra": 251.11587,
       "sy_dist": 14.0022,
       "disc_year": "2023",
-      "st_mass": 1.0,
+      "st_mass": "2 x 10^27 tonnes",
       "st_teff": 5700 ,
       "st_rad": 1.0 ,
       "hostname": "Yap's",
@@ -90,15 +90,15 @@
       "sy_pmdec": 81.928,
       "sy_tmag": 11.5045,
       "sy_pm": 94.965742,
-      "sy_snum": 1,
+      "sy_snum": 700000 ,
       "sy_pnum": 1,
-      "sy_mnum": 0,
+      "sy_mnum": 1,
       "st_met": 1.0,
       "st_metratio": "[Fe/H]",
       "st_lum": 0,
       "st_age": "4.5 Gyr",
       "st_dens": " 1.41 g/cm3",
-      "st_rotp": 25
+      "st_rotp": 30
     },
 
     {

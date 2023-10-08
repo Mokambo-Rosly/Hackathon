@@ -38,7 +38,7 @@ export default function PlanetPage() {
         Une exoplanète habitable semblable à la Terre
         </h3>
         <h2 className="leading-relaxed mb-4 text-slate-400 italic text-sm md:text-md lg:text-lg w-full justify-self-stretch h-max">
-        LysGan est une exoplanète habitable qui orbite autour de son étoile hôte, LysGan, une étoile de type solaire. Avec une masse équivalente à 1,2 fois celle de la Terre, LysGan accomplit une orbite complète autour de LysGan en 365 jours et se trouve à une distance de 0,95 unité astronomique (UA) de son étoile. Sa découverte a été annoncée en 2023. <br/>
+        LysGan est une exoplanète habitable qui orbite autour de son étoile hôte, Yap's, une étoile de type solaire. Avec une masse équivalente à 1,2 fois celle de la Terre, LysGan accomplit une orbite complète autour de Yap's en 360 jours et se trouve à une distance de 0,95 unité astronomique (UA) de son étoile. Sa découverte a été annoncée en 2023. <br/>
         <a  href={"/#/recit"} className="text-sky-500 text-lg md:text-xl w-full">Pour en savoir plus sur LysGan et son histoire passionnante, cliquez ici :</a>
         </h2>
         <div className="flex items-center justify-between">
