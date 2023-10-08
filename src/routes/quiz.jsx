@@ -152,7 +152,7 @@ export default function PlanetPage() {
        
 
         <div className="min-h-[65vh] flex items-center justify-center">
-      <div className="bg-gradient-to-b from-cyan-500 to-green-500 rounded-lg p-1 shadow-md w-[70em]">
+      <div className="bg-gradient-to-b from-cyan-500 to-green-500 rounded-lg p-1 shadow-md lg:w-[60em] md:w-full">
         {showScore ? (
           <div className="text-center bg-black rounded-lg h-full p-4">
             <h2 className="text-2xl text-white font-semibold">Votre score est de {score}/{questions.length}</h2>
