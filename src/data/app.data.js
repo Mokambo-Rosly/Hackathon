@@ -290,7 +290,7 @@ class AppDataImpl {
           key: "simulation",
         },
         {
-          title: "Questions relatives",
+          title: "FAQ",
           key: "question",
         },
         
