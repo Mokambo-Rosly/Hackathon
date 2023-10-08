@@ -282,13 +282,13 @@ class AppDataImpl {
         //   key: "apod",
         // },
         {
-          title: "Mon exoplanète",
+          title: "LysGan",
           key: "mon-exoplanete",
         },
-        {
-          title: "Simulation",
-          key: "simulation",
-        },
+        // {
+        //   title: "Simulation",
+        //   key: "simulation",
+        // },
         {
           title: "FAQ",
           key: "question",
@@ -297,10 +297,10 @@ class AppDataImpl {
           title: "Quiz",
           key: "quiz",
         },
-        {
-          title: "VR",
-          key: "vr",
-        },
+        // {
+        //   title: "VR",
+        //   key: "vr",
+        // },
         
         {
           title: "A propos",
@@ -313,13 +313,8 @@ class AppDataImpl {
           key: "random-planet",
           show: "always",
         },
-        {
-          title: "Sign Out",
-          key: "signout",
-          show: "signedin",
-          divider: true,
-        },
       ],
+     
     };
     /**
      * A model for the solar system

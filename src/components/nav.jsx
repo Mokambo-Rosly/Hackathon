@@ -90,17 +90,67 @@ const MainNav = (props) => {
  * @param {link, title} props
  * @returns A functional component to render a nav Item
  */
+// const MainNavItem = (props) => {
+//   //console.log("MainNavItem", props);
+//   return (
+//     <NavLink
+//       to={props.link}
+//       className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
+//     >
+//       {props.title}
+//     </NavLink>
+//   );
+// };
+
 const MainNavItem = (props) => {
-  //console.log("MainNavItem", props);
+  // Déclarez un état pour gérer l'ouverture ou la fermeture du dropdown
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Fonction pour gérer l'ouverture ou la fermeture du dropdown
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <NavLink
-      to={props.link}
-      className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
-    >
-      {props.title}
-    </NavLink>
+    <li className="relative group block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
+      {props.title === 'LysGan' ? (
+        <Dropdown inline label={props.title} isOpen={isOpen} onToggle={toggleDropdown}>
+          {/* Ajoutez ici les éléments du dropdown */}
+          
+            <NavLink to={props.link} className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
+              Exoplanète
+            </NavLink>
+         
+          
+            <NavLink to="simulation" className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
+              Simulation
+            </NavLink>
+
+            <NavLink to="vr" className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
+              VR
+            </NavLink>
+         
+          {/* Ajoutez d'autres options de dropdown ici */}
+        </Dropdown>
+      ) : (
+        <NavLink to={props.link} className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
+          {props.title}
+        </NavLink>
+      )}
+    </li>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Creates a dropdown menu base on the user's sign-in status.
  * If the user is signed in, return a header with their avatar.
