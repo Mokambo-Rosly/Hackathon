@@ -15,6 +15,7 @@ import {AuthProvider} from "./data/context"
 import Simulation from "./routes/simulation"
 import Recit from "./routes/recit"
 import Question from "./routes/question"
+import Quiz from "./routes/quiz"
 //
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -33,6 +34,7 @@ root.render(
           <Route path="recit" element={<Recit />} />
           <Route path="simulation" element={<Simulation />} />
           <Route path="question" element={<Question />} />
+          <Route path="quiz" element={<Quiz />} />
         </Route>
       </Routes>
     </HashRouter>

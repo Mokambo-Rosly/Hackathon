@@ -293,6 +293,10 @@ class AppDataImpl {
           title: "FAQ",
           key: "question",
         },
+        {
+          title: "Quiz",
+          key: "quiz",
+        },
         
         {
           title: "A propos",

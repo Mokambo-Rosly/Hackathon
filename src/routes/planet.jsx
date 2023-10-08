@@ -118,28 +118,7 @@ export default function PlanetPage() {
                     <p className="text-lg lg:text-lg xl:text-xl italic text-slate-400 p-4">
                       {planet.description}
                     </p>
-                    {/* <div className="grid items-center grid-cols-1 justify-items-stretch fluid-button-bar gap-4 my-4 mx-4">
-                      <Button
-                        href="/reviews/create"
-                        outline={true}
-                        onClick={openCreateReviewModal}
-                        gradientDuoTone="pinkToOrange"
-                        size="xl"
-                      >
-                        <MdOutlineRateReview className="text-xl group-hover:animate-bounce_x transition-all" />
-                        Écrire une critique
-                      </Button>
-                      <Button
-                        onClick={openLinkNewTab}
-                        href={"https://exoplanets.nasa.gov" + planet.url}
-                        outline={true}
-                        gradientDuoTone="cyanToBlue"
-                        size="xl"
-                      >
-                        <BiPlanet className="text-xl group-hover:animate-spin3d transition-all" />
-                        Archives d'exoplanètes
-                      </Button>
-                    </div> */}
+                    
                   </div>
                 </div>
                 <div className="w-[50em] bg-gradient-to-b from-cyan-500 to-green-500 p-1 rounded-lg xl:col-span-1 2xl:col-span-1">
@@ -147,17 +126,7 @@ export default function PlanetPage() {
                     <PlanetTable planet={planet} />
                   </div>
                 </div>
-                {/* <div className="bg-gradient-to-b from-cyan-500 to-green-500 p-1 rounded-lg overflow-hidden md:col-span-2 lg:col-span-2 xl:col-span-2 2xl:col-span-2">
-                  <div className="bg-black rounded-lg overflow-hidden h-full p-2">
-                    <h2
-                      className="text-center w-full text-cyan-500
-            text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl italic"
-                    >
-                      Planet Reviews
-                    </h2>
-                    <ReviewsComponent planet_id={planet_id} ref={childRef} />
-                  </div>
-                </div> */}
+                
               </article>
             </div>
           </div>
