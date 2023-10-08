@@ -16,6 +16,7 @@ import Simulation from "./routes/simulation"
 import Recit from "./routes/recit"
 import Question from "./routes/question"
 import Quiz from "./routes/quiz"
+import VR from "./routes/vr"
 //
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,6 +36,7 @@ root.render(
           <Route path="simulation" element={<Simulation />} />
           <Route path="question" element={<Question />} />
           <Route path="quiz" element={<Quiz />} />
+          <Route path="vr" element={<VR />} />
         </Route>
       </Routes>
     </HashRouter>

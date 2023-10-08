@@ -65,24 +65,6 @@ export default function About() {
                       </li>
                     </ul>
                   </div>
-
-                  <div className="twinmotion-embed-wrapper">
-  <iframe
-    style={{
-      height: '100%',
-      width: '100%',
-      minHeight: '375px',
-      minWidth: '375px',
-    }}
-    title="Embedded presentation 'LYSGAN, une exoplanète similaire à la terre'"
-    frameBorder="0"
-    allow="fullscreen; gyroscope; accelerometer; magnetometer; execution-while-out-of-viewport; execution-while-not-rendered; xr-spatial-tracking;"
-    allowFullScreen
-    mozAllowFullScreen={true}
-    webkitAllowFullScreen={true}
-    src="https://twinmotion.unrealengine.com/presentation/15jjmiHSh-xMIjj4?embed"
-  ></iframe>
-</div>
                 </section>
               </div>
             </div>

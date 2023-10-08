@@ -297,6 +297,10 @@ class AppDataImpl {
           title: "Quiz",
           key: "quiz",
         },
+        {
+          title: "VR",
+          key: "vr",
+        },
         
         {
           title: "A propos",
