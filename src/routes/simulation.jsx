@@ -11,6 +11,8 @@ export default function About() {
         >
         Une Journée dans la Vie des LysGaniens
         </h1>
+
+
         <div className="w-full flex items-center justify-center h-scren">
           <div className="container mx-6 sm:mx-8 md:mx-8 lg:mx-0">
             <div className="w-full rounded-xl bg-gradient-to-b p-[5px] from-purple-800 to-fuchsia-500">
@@ -63,6 +65,24 @@ export default function About() {
                       </li>
                     </ul>
                   </div>
+
+                  <div className="twinmotion-embed-wrapper">
+  <iframe
+    style={{
+      height: '100%',
+      width: '100%',
+      minHeight: '375px',
+      minWidth: '375px',
+    }}
+    title="Embedded presentation 'LYSGAN, une exoplanète similaire à la terre'"
+    frameBorder="0"
+    allow="fullscreen; gyroscope; accelerometer; magnetometer; execution-while-out-of-viewport; execution-while-not-rendered; xr-spatial-tracking;"
+    allowFullScreen
+    mozAllowFullScreen={true}
+    webkitAllowFullScreen={true}
+    src="https://twinmotion.unrealengine.com/presentation/15jjmiHSh-xMIjj4?embed"
+  ></iframe>
+</div>
                 </section>
               </div>
             </div>
