@@ -20,7 +20,7 @@ export default function About() {
               <figure className="bg-slate-600 w-full relative overflow-hidden rounded-tl-xl lg:rounded-bl-none rounded-tr-lg xl:rounded-tr-none xl:rounded-bl-lg">
                   <img
                     className="w-full h-full object-bottom"
-                    src="../../static/Day.png"
+                    src="https://media.discordapp.net/attachments/1124002659112845345/1160542564840124537/Day.png?ex=65350a7d&is=6522957d&hm=4f6ffcf02e5b7dc674d9d0dd1d5f019eb5cd7a76a91ec0b7f09d5d5c873567d8&=&width=751&height=422"
                   />
                   <footer className="py-3 px-3 bg-slate-800 text-xs text-white font-mono absolute bottom-0 right-0 left-0 rounded-bl-lg bg-opacity-80 border-t-[1px] border-slate-900">
                     <aside>Illustration</aside>

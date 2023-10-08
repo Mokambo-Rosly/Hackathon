@@ -18,7 +18,7 @@ export default function About() {
                 <figure className="bg-slate-600 w-full relative overflow-hidden rounded-tl-xl lg:rounded-bl-none rounded-tr-lg xl:rounded-tr-none xl:rounded-bl-lg">
                   <img
                     className="w-full h-full object-bottom"
-                    src="../../static/Night.png"
+                    src="https://media.discordapp.net/attachments/1124002659112845345/1160542564160639076/Night.png?ex=65350a7d&is=6522957d&hm=bc6c2fc3dfaf491fea28dfb9ec4e122fe68aa54c518a67879cd3633a3e7d7bbb&=&width=751&height=422"
                   />
                   <footer className="py-3 px-3 bg-slate-800 text-xs text-white font-mono absolute bottom-0 right-0 left-0 rounded-bl-lg bg-opacity-80 border-t-[1px] border-slate-900">
                     <aside>Illustration</aside>
