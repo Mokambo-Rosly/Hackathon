@@ -50,16 +50,19 @@ const PlanetCard = (props) => {
         alt="blog"
       />
       <div className="p-6 bg-black rounded-bl-lg rounded-br-lg flex-auto justify-items-stretch">
+        <div className="h-[18em]">
         <h1 className="text-slate-100 lettering font-extralight text-2xl md:text-3xl lg:text-4xl w-full">
           {props.planet.display_name}
         </h1>
         <h3 className="tracking-widest font-medium text-sky-500 mb-1 text-lg md:text-xl w-full">
           {props.planet.subtitle}
         </h3>
-        <h2 className="leading-relaxed mb-4 text-slate-400 italic text-sm md:text-md lg:text-lg w-full justify-self-stretch h-max">
-          {props.planet.short_description}
-        </h2>
-        <div className="flex items-center justify-between">
+        
+          <h2 className="leading-relaxed mb-4 text-slate-400 italic text-sm md:text-md lg:text-lg w-full justify-self-stretch h-max">
+            {props.planet.short_description}
+          </h2>
+        </div> 
+        <div className="flex items-center justify-between gap-2">
           <Button
             href={"/#/planets/" + props.planet.id}
             outline={true}
